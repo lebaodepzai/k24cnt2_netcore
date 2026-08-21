@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37614.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LgbLesson1", "LgbLesson1\LgbLesson1.csproj", "{DEE546E7-6BC4-441C-BD0E-7206E1BE06BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LgbLesson1Mvc", "LgbLesson1Mvc\LgbLesson1Mvc.csproj", "{49D20589-BEB1-4BE6-B1C0-70DBC36109C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEE546E7-6BC4-441C-BD0E-7206E1BE06BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE546E7-6BC4-441C-BD0E-7206E1BE06BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE546E7-6BC4-441C-BD0E-7206E1BE06BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE546E7-6BC4-441C-BD0E-7206E1BE06BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49D20589-BEB1-4BE6-B1C0-70DBC36109C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49D20589-BEB1-4BE6-B1C0-70DBC36109C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49D20589-BEB1-4BE6-B1C0-70DBC36109C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49D20589-BEB1-4BE6-B1C0-70DBC36109C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5076D986-5859-4F77-BEC5-A0D1AD63C320}
+	EndGlobalSection
+EndGlobal
