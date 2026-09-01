@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\netcore\\k24cnt2_netcore\\lgblesson04Lab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59B76D93-42ED-43D2-A370-303C96745257}|lgblesson04Lab\\lgblesson04Lab.csproj|d:\\netcore\\k24cnt2_netcore\\lgblesson04lab\\lgblesson04lab\\controllers\\lgbaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59B76D93-42ED-43D2-A370-303C96745257}|lgblesson04Lab\\lgblesson04Lab.csproj|solutionrelative:lgblesson04lab\\controllers\\lgbaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59B76D93-42ED-43D2-A370-303C96745257}|lgblesson04Lab\\lgblesson04Lab.csproj|d:\\netcore\\k24cnt2_netcore\\lgblesson04lab\\lgblesson04lab\\views\\lgbaccount\\lgbprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59B76D93-42ED-43D2-A370-303C96745257}|lgblesson04Lab\\lgblesson04Lab.csproj|solutionrelative:lgblesson04lab\\views\\lgbaccount\\lgbprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59B76D93-42ED-43D2-A370-303C96745257}|lgblesson04Lab\\lgblesson04Lab.csproj|d:\\netcore\\k24cnt2_netcore\\lgblesson04lab\\lgblesson04lab\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59B76D93-42ED-43D2-A370-303C96745257}|lgblesson04Lab\\lgblesson04Lab.csproj|solutionrelative:lgblesson04lab\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59B76D93-42ED-43D2-A370-303C96745257}|lgblesson04Lab\\lgblesson04Lab.csproj|d:\\netcore\\k24cnt2_netcore\\lgblesson04lab\\lgblesson04lab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59B76D93-42ED-43D2-A370-303C96745257}|lgblesson04Lab\\lgblesson04Lab.csproj|solutionrelative:lgblesson04lab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59B76D93-42ED-43D2-A370-303C96745257}|lgblesson04Lab\\lgblesson04Lab.csproj|d:\\netcore\\k24cnt2_netcore\\lgblesson04lab\\lgblesson04lab\\models\\lgbaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59B76D93-42ED-43D2-A370-303C96745257}|lgblesson04Lab\\lgblesson04Lab.csproj|solutionrelative:lgblesson04lab\\models\\lgbaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59B76D93-42ED-43D2-A370-303C96745257}|lgblesson04Lab\\lgblesson04Lab.csproj|d:\\netcore\\k24cnt2_netcore\\lgblesson04lab\\lgblesson04lab\\views\\lgbaccount\\lgbindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59B76D93-42ED-43D2-A370-303C96745257}|lgblesson04Lab\\lgblesson04Lab.csproj|solutionrelative:lgblesson04lab\\views\\lgbaccount\\lgbindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59B76D93-42ED-43D2-A370-303C96745257}|lgblesson04Lab\\lgblesson04Lab.csproj|d:\\netcore\\k24cnt2_netcore\\lgblesson04lab\\lgblesson04lab\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{59B76D93-42ED-43D2-A370-303C96745257}|lgblesson04Lab\\lgblesson04Lab.csproj|solutionrelative:lgblesson04lab\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59B76D93-42ED-43D2-A370-303C96745257}|lgblesson04Lab\\lgblesson04Lab.csproj|d:\\netcore\\k24cnt2_netcore\\lgblesson04lab\\lgblesson04lab\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59B76D93-42ED-43D2-A370-303C96745257}|lgblesson04Lab\\lgblesson04Lab.csproj|solutionrelative:lgblesson04lab\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "lgbAccountController.cs",
+              "DocumentMoniker": "D:\\netcore\\k24cnt2_netcore\\lgblesson04Lab\\lgblesson04Lab\\Controllers\\lgbAccountController.cs",
+              "RelativeDocumentMoniker": "lgblesson04Lab\\Controllers\\lgbAccountController.cs",
+              "ToolTip": "D:\\netcore\\k24cnt2_netcore\\lgblesson04Lab\\lgblesson04Lab\\Controllers\\lgbAccountController.cs*",
+              "RelativeToolTip": "lgblesson04Lab\\Controllers\\lgbAccountController.cs*",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAuwGIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T12:32:17.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LgbProfile.cshtml",
+              "DocumentMoniker": "D:\\netcore\\k24cnt2_netcore\\lgblesson04Lab\\lgblesson04Lab\\Views\\lgbAccount\\LgbProfile.cshtml",
+              "RelativeDocumentMoniker": "lgblesson04Lab\\Views\\lgbAccount\\LgbProfile.cshtml",
+              "ToolTip": "D:\\netcore\\k24cnt2_netcore\\lgblesson04Lab\\lgblesson04Lab\\Views\\lgbAccount\\LgbProfile.cshtml",
+              "RelativeToolTip": "lgblesson04Lab\\Views\\lgbAccount\\LgbProfile.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-01T13:50:31.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\netcore\\k24cnt2_netcore\\lgblesson04Lab\\lgblesson04Lab\\Program.cs",
+              "RelativeDocumentMoniker": "lgblesson04Lab\\Program.cs",
+              "ToolTip": "D:\\netcore\\k24cnt2_netcore\\lgblesson04Lab\\lgblesson04Lab\\Program.cs",
+              "RelativeToolTip": "lgblesson04Lab\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwB4AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T14:09:01.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\netcore\\k24cnt2_netcore\\lgblesson04Lab\\lgblesson04Lab\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "lgblesson04Lab\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\netcore\\k24cnt2_netcore\\lgblesson04Lab\\lgblesson04Lab\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "lgblesson04Lab\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-01T14:12:47.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\netcore\\k24cnt2_netcore\\lgblesson04Lab\\lgblesson04Lab\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "lgblesson04Lab\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\netcore\\k24cnt2_netcore\\lgblesson04Lab\\lgblesson04Lab\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "lgblesson04Lab\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-09-01T13:41:18.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "lgbIndex.cshtml",
+              "DocumentMoniker": "D:\\netcore\\k24cnt2_netcore\\lgblesson04Lab\\lgblesson04Lab\\Views\\lgbAccount\\lgbIndex.cshtml",
+              "RelativeDocumentMoniker": "lgblesson04Lab\\Views\\lgbAccount\\lgbIndex.cshtml",
+              "ToolTip": "D:\\netcore\\k24cnt2_netcore\\lgblesson04Lab\\lgblesson04Lab\\Views\\lgbAccount\\lgbIndex.cshtml",
+              "RelativeToolTip": "lgblesson04Lab\\Views\\lgbAccount\\lgbIndex.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-01T12:34:17.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "lgbAccount.cs",
+              "DocumentMoniker": "D:\\netcore\\k24cnt2_netcore\\lgblesson04Lab\\lgblesson04Lab\\Models\\lgbAccount.cs",
+              "RelativeDocumentMoniker": "lgblesson04Lab\\Models\\lgbAccount.cs",
+              "ToolTip": "D:\\netcore\\k24cnt2_netcore\\lgblesson04Lab\\lgblesson04Lab\\Models\\lgbAccount.cs",
+              "RelativeToolTip": "lgblesson04Lab\\Models\\lgbAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T12:50:27.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\netcore\\k24cnt2_netcore\\lgblesson04Lab\\lgblesson04Lab\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "lgblesson04Lab\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\netcore\\k24cnt2_netcore\\lgblesson04Lab\\lgblesson04Lab\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "lgblesson04Lab\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T12:27:27.934Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
