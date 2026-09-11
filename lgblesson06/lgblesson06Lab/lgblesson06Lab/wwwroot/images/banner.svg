@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260" width="260" height="260">
+  <defs>
+    <linearGradient id="bannerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0066cc"/>
+      <stop offset="100%" stop-color="#003366"/>
+    </linearGradient>
+  </defs>
+  <rect width="260" height="260" fill="url(#bannerBg)" rx="8"/>
+  
+  <!-- Banner Header -->
+  <path d="M 15 15 L 120 15 L 100 45 L 15 45 Z" fill="#ffd633"/>
+  <text x="55" y="35" font-family="Arial" font-size="12" font-weight="bold" fill="#cc0000">ĐỔI CŨ</text>
+  
+  <rect x="125" y="15" width="120" height="30" rx="15" fill="#ff3300"/>
+  <text x="185" y="35" font-family="Arial" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">LẤY MỚI</text>
+  
+  <!-- Subtitle -->
+  <text x="130" y="75" font-family="Arial" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle">LÊN ĐỜI</text>
+  <text x="130" y="105" font-family="Arial" font-size="22" font-weight="900" fill="#ffd633" text-anchor="middle">FASTER</text>
+  
+  <!-- Price tag -->
+  <rect x="30" y="130" width="200" height="40" rx="6" fill="#cc0000"/>
+  <text x="130" y="155" font-family="Arial" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">chỉ từ 1.100.000đ</text>
+  
+  <!-- Small Appliance Graphics -->
+  <circle cx="80" cy="210" r="30" fill="#ffffff" opacity="0.9"/>
+  <rect x="68" y="195" width="24" height="30" rx="4" fill="#333"/>
+  
+  <circle cx="180" cy="210" r="30" fill="#ffffff" opacity="0.9"/>
+  <ellipse cx="180" cy="210" rx="20" ry="15" fill="#8a5a3c"/>
+</svg>

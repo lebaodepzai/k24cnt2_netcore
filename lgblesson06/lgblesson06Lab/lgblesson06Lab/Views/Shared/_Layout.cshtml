@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - DEMO LAB</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <!-- Header Navigation Bar -->
+    <header class="custom-header">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand text-uppercase fw-bold px-3 py-2 brand-demo" asp-area="" asp-controller="Home" asp-action="Index">DEMO LAB</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" asp-area="" asp-controller="Home" asp-action="Index">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary-custom" asp-area="" asp-controller="Home" asp-action="About">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary-custom" asp-area="" asp-controller="Home" asp-action="Contact">Liên hệ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary-custom" asp-area="" asp-controller="Home" asp-action="Products">Sản phẩm</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Container with Sidebar (Aside) and Main Content -->
+    <div class="container my-4">
+        <div class="row">
+            <!-- Left Aside Sidebar (Loaded from Partial View) -->
+            <aside class="col-md-3">
+                @await Html.PartialAsync("_CategoryPartial")
+            </aside>
+
+            <!-- Main Content Area -->
+            <main class="col-md-9" role="main">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="custom-footer bg-dark text-light mt-5 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <h5 class="text-uppercase text-light border-bottom pb-2 mb-3">GIỚI THIỆU</h5>
+                    <p class="text-muted-custom small">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ab suscipit deserunt mollitia reiciendis, nobis iure aliquam velit et laboriosam ducimus melecta corporis est, dolores aperiam! Officia impedit provident laboriosam.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="text-uppercase text-light border-bottom pb-2 mb-3">LIÊN HỆ</h5>
+                    <p class="text-muted-custom small">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit amet suscipit quasi quisquam impedit magnam molestiae. Dolores, aliquid melecta ut cose eos voluptatem nisi facilis dolorem, repudiandae culpa ea quidem.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

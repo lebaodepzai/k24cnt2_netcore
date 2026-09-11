@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\netcore\\k24cnt2_netcore\\lgblesson06\\lgblesson06Lab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F612A4D3-3B97-47F4-8AC3-2B24A53056B2}|lgblesson06Lab\\lgblesson06Lab.csproj|d:\\netcore\\k24cnt2_netcore\\lgblesson06\\lgblesson06lab\\lgblesson06lab\\views\\shared\\_categorypartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F612A4D3-3B97-47F4-8AC3-2B24A53056B2}|lgblesson06Lab\\lgblesson06Lab.csproj|solutionrelative:lgblesson06lab\\views\\shared\\_categorypartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F612A4D3-3B97-47F4-8AC3-2B24A53056B2}|lgblesson06Lab\\lgblesson06Lab.csproj|d:\\netcore\\k24cnt2_netcore\\lgblesson06\\lgblesson06lab\\lgblesson06lab\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F612A4D3-3B97-47F4-8AC3-2B24A53056B2}|lgblesson06Lab\\lgblesson06Lab.csproj|solutionrelative:lgblesson06lab\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F612A4D3-3B97-47F4-8AC3-2B24A53056B2}|lgblesson06Lab\\lgblesson06Lab.csproj|d:\\netcore\\k24cnt2_netcore\\lgblesson06\\lgblesson06lab\\lgblesson06lab\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F612A4D3-3B97-47F4-8AC3-2B24A53056B2}|lgblesson06Lab\\lgblesson06Lab.csproj|solutionrelative:lgblesson06lab\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F612A4D3-3B97-47F4-8AC3-2B24A53056B2}|lgblesson06Lab\\lgblesson06Lab.csproj|d:\\netcore\\k24cnt2_netcore\\lgblesson06\\lgblesson06lab\\lgblesson06lab\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F612A4D3-3B97-47F4-8AC3-2B24A53056B2}|lgblesson06Lab\\lgblesson06Lab.csproj|solutionrelative:lgblesson06lab\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_CategoryPartial.cshtml",
+              "DocumentMoniker": "D:\\netcore\\k24cnt2_netcore\\lgblesson06\\lgblesson06Lab\\lgblesson06Lab\\Views\\Shared\\_CategoryPartial.cshtml",
+              "RelativeDocumentMoniker": "lgblesson06Lab\\Views\\Shared\\_CategoryPartial.cshtml",
+              "ToolTip": "D:\\netcore\\k24cnt2_netcore\\lgblesson06\\lgblesson06Lab\\lgblesson06Lab\\Views\\Shared\\_CategoryPartial.cshtml",
+              "RelativeToolTip": "lgblesson06Lab\\Views\\Shared\\_CategoryPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-11T14:13:59.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\netcore\\k24cnt2_netcore\\lgblesson06\\lgblesson06Lab\\lgblesson06Lab\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "lgblesson06Lab\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\netcore\\k24cnt2_netcore\\lgblesson06\\lgblesson06Lab\\lgblesson06Lab\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "lgblesson06Lab\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-11T14:13:56.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\netcore\\k24cnt2_netcore\\lgblesson06\\lgblesson06Lab\\lgblesson06Lab\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "lgblesson06Lab\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\netcore\\k24cnt2_netcore\\lgblesson06\\lgblesson06Lab\\lgblesson06Lab\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "lgblesson06Lab\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-11T14:05:06.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\netcore\\k24cnt2_netcore\\lgblesson06\\lgblesson06Lab\\lgblesson06Lab\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "lgblesson06Lab\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\netcore\\k24cnt2_netcore\\lgblesson06\\lgblesson06Lab\\lgblesson06Lab\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "lgblesson06Lab\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-11T14:04:53.923Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

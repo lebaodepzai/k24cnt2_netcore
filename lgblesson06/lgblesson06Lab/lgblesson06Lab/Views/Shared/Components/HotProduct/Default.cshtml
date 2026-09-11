@@ -1,0 +1,24 @@
+@model IEnumerable<lgblesson06Lab.Models.Product>
+
+<div class="custom-block-section mb-4">
+    <div class="custom-block-header">
+        Sản phẩm nổi bật
+    </div>
+    <div class="custom-block-body">
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+            @foreach (var item in Model)
+            {
+                <div class="col">
+                    <div class="card product-card text-center h-100">
+                        <div class="product-img-wrapper p-3">
+                            <img src="@item.Image" class="card-img-top img-fluid" alt="@item.Name">
+                        </div>
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h6 class="card-title product-title">@item.Name</h6>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+@{
+    var categories = new List<string>
+    {
+        "Áo dài",
+        "Áo đông",
+        "Túi xách",
+        "Đồng hồ",
+        "Ví da",
+        "Thắt lưng da",
+        "Tủ lạnh",
+        "Tivi",
+        "Quạt điện",
+        "Lò sưởi"
+    };
+}
+
+<div class="category-sidebar mb-4">
+    <div class="category-header">
+        Danh mục sản phẩm
+    </div>
+    <ul class="list-group list-group-flush category-list">
+        @foreach (var cat in categories)
+        {
+            <li class="list-group-item">
+                <a href="#" class="category-link">@cat</a>
+            </li>
+        }
+    </ul>
+</div>
+
+<div class="ad-banner text-center mb-4">
+    <img src="/images/banner.svg" alt="Quảng cáo" class="img-fluid rounded border shadow-sm" />
+</div>

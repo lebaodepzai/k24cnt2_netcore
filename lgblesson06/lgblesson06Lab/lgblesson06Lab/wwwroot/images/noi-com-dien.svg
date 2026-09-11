@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240" width="300" height="240">
+  <defs>
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b58a69"/>
+      <stop offset="50%" stop-color="#8a5a3c"/>
+      <stop offset="100%" stop-color="#573621"/>
+    </linearGradient>
+    <linearGradient id="lidGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#734a31"/>
+      <stop offset="100%" stop-color="#422919"/>
+    </linearGradient>
+    <linearGradient id="panelGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1f1f1f"/>
+      <stop offset="100%" stop-color="#3a3a3a"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Body -->
+  <path d="M 40 90 C 40 50, 260 50, 260 90 L 250 190 C 250 215, 50 215, 50 190 Z" fill="url(#bodyGrad)" stroke="#3a2214" stroke-width="3"/>
+  
+  <!-- Lid Top -->
+  <path d="M 55 80 C 55 45, 245 45, 245 80 Z" fill="url(#lidGrad)" stroke="#3a2214" stroke-width="2"/>
+  
+  <!-- Handle -->
+  <path d="M 90 45 C 90 25, 210 25, 210 45 C 190 35, 110 35, 90 45 Z" fill="#2d1c12" stroke="#1a0f0a" stroke-width="2"/>
+  
+  <!-- Control Panel -->
+  <rect x="90" y="85" width="120" height="45" rx="8" fill="url(#panelGrad)" stroke="#666" stroke-width="2"/>
+  <rect x="110" y="92" width="80" height="15" rx="3" fill="#000" stroke="#00ffcc" stroke-width="1"/>
+  <text x="150" y="103" font-family="monospace" font-size="10" fill="#00ffcc" text-anchor="middle">12:00</text>
+  
+  <!-- Buttons -->
+  <circle cx="120" cy="118" r="5" fill="#ff4d4d"/>
+  <circle cx="150" cy="118" r="5" fill="#ffd633"/>
+  <circle cx="180" cy="118" r="5" fill="#4da6ff"/>
+  
+  <!-- Logo Tag Sticker -->
+  <rect x="105" y="145" width="90" height="40" rx="4" fill="#e60000" stroke="#fff" stroke-width="2"/>
+  <text x="150" y="162" font-family="Arial" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">Nagakawa</text>
+  <text x="150" y="176" font-family="Arial" font-size="8" fill="#ffffcc" text-anchor="middle">NAG0102</text>
+  
+  <!-- Base feet -->
+  <rect x="70" y="210" width="25" height="10" rx="3" fill="#1a0f0a"/>
+  <rect x="205" y="210" width="25" height="10" rx="3" fill="#1a0f0a"/>
+</svg>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37614.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lgblesson06View", "lgblesson06View\lgblesson06View.csproj", "{F4CC5A26-0205-482A-B772-3848E2E65B65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4CC5A26-0205-482A-B772-3848E2E65B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4CC5A26-0205-482A-B772-3848E2E65B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4CC5A26-0205-482A-B772-3848E2E65B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4CC5A26-0205-482A-B772-3848E2E65B65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6398AB36-CBA5-47F2-8FCE-194A5C5E4C15}
+	EndGlobalSection
+EndGlobal
