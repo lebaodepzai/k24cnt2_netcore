@@ -1,0 +1,49 @@
+@model lgblesson07Models.Models.DataModels.lgbMember
+
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="card p-3">
+
+
+
+    <h1>Them moi thanh vien</h1>
+
+    <h4>lgbMember</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Create" method="post" asp-controller="lgbMember">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-group">
+                    <label asp-for="lgbUserName" class="control-label"></label>
+                    <input asp-for="lgbUserName" class="form-control" />
+                    <span asp-validation-for="lgbUserName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="lgbPassword" class="control-label"></label>
+                    <input asp-for="lgbPassword" class="form-control" />
+                    <span asp-validation-for="lgbPassword" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="lgbFullName" class="control-label"></label>
+                    <input asp-for="lgbFullName" class="form-control" />
+                    <span asp-validation-for="lgbFullName" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="lgbEmail" class="control-label"></label>
+                    <input asp-for="lgbEmail" class="form-control" />
+                    <span asp-validation-for="lgbEmail" class="text-danger"></span>
+                </div>
+                <div class="form-group m-2">
+                    <input type="submit" value="Ghi lai" class="btn btn-primary" />
+                    <a asp-action="Index" class="btn btn-secondary">Quay lai</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

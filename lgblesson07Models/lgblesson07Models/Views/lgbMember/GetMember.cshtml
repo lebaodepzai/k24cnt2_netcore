@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewData["Title"] = "Thong tin member";
+    var member = Model as lgblesson07Models.Models.DataModels.lgbMember;
+}
+
+<div class="alert alert-info">
+    <h1>@ViewData["Title"]</h1>
+    <p>Memberid: @member.lgbMemberId</p>
+    <p>UserName: @member.lgbUserName</p>
+    <p>UserName: @member.lgbPassword</p>
+    <p>UserName: @member.lgbFullName</p>
+    <p>UserName: @member.lgbEmail</p>
+</div>

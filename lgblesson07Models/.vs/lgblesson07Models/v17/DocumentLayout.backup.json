@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\netcore\\k24cnt2_netcore\\lgblesson07Models\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B26525A-03C4-47BD-AC8B-2E5D9515FFBB}|lgblesson07Models\\lgblesson07Models.csproj|d:\\netcore\\k24cnt2_netcore\\lgblesson07models\\lgblesson07models\\controllers\\lgbmembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B26525A-03C4-47BD-AC8B-2E5D9515FFBB}|lgblesson07Models\\lgblesson07Models.csproj|solutionrelative:lgblesson07models\\controllers\\lgbmembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B26525A-03C4-47BD-AC8B-2E5D9515FFBB}|lgblesson07Models\\lgblesson07Models.csproj|d:\\netcore\\k24cnt2_netcore\\lgblesson07models\\lgblesson07models\\lgblesson07models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7B26525A-03C4-47BD-AC8B-2E5D9515FFBB}|lgblesson07Models\\lgblesson07Models.csproj|solutionrelative:lgblesson07models\\lgblesson07models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B26525A-03C4-47BD-AC8B-2E5D9515FFBB}|lgblesson07Models\\lgblesson07Models.csproj|d:\\netcore\\k24cnt2_netcore\\lgblesson07models\\lgblesson07models\\views\\lgbmember\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B26525A-03C4-47BD-AC8B-2E5D9515FFBB}|lgblesson07Models\\lgblesson07Models.csproj|solutionrelative:lgblesson07models\\views\\lgbmember\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B26525A-03C4-47BD-AC8B-2E5D9515FFBB}|lgblesson07Models\\lgblesson07Models.csproj|d:\\netcore\\k24cnt2_netcore\\lgblesson07models\\lgblesson07models\\views\\lgbmember\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B26525A-03C4-47BD-AC8B-2E5D9515FFBB}|lgblesson07Models\\lgblesson07Models.csproj|solutionrelative:lgblesson07models\\views\\lgbmember\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B26525A-03C4-47BD-AC8B-2E5D9515FFBB}|lgblesson07Models\\lgblesson07Models.csproj|d:\\netcore\\k24cnt2_netcore\\lgblesson07models\\lgblesson07models\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B26525A-03C4-47BD-AC8B-2E5D9515FFBB}|lgblesson07Models\\lgblesson07Models.csproj|solutionrelative:lgblesson07models\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B26525A-03C4-47BD-AC8B-2E5D9515FFBB}|lgblesson07Models\\lgblesson07Models.csproj|d:\\netcore\\k24cnt2_netcore\\lgblesson07models\\lgblesson07models\\views\\lgbmember\\getmember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B26525A-03C4-47BD-AC8B-2E5D9515FFBB}|lgblesson07Models\\lgblesson07Models.csproj|solutionrelative:lgblesson07models\\views\\lgbmember\\getmember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B26525A-03C4-47BD-AC8B-2E5D9515FFBB}|lgblesson07Models\\lgblesson07Models.csproj|d:\\netcore\\k24cnt2_netcore\\lgblesson07models\\lgblesson07models\\models\\datamodels\\lgbmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B26525A-03C4-47BD-AC8B-2E5D9515FFBB}|lgblesson07Models\\lgblesson07Models.csproj|solutionrelative:lgblesson07models\\models\\datamodels\\lgbmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B26525A-03C4-47BD-AC8B-2E5D9515FFBB}|lgblesson07Models\\lgblesson07Models.csproj|d:\\netcore\\k24cnt2_netcore\\lgblesson07models\\lgblesson07models\\views\\lgbmember\\getmembers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B26525A-03C4-47BD-AC8B-2E5D9515FFBB}|lgblesson07Models\\lgblesson07Models.csproj|solutionrelative:lgblesson07models\\views\\lgbmember\\getmembers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B26525A-03C4-47BD-AC8B-2E5D9515FFBB}|lgblesson07Models\\lgblesson07Models.csproj|d:\\netcore\\k24cnt2_netcore\\lgblesson07models\\lgblesson07models\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B26525A-03C4-47BD-AC8B-2E5D9515FFBB}|lgblesson07Models\\lgblesson07Models.csproj|solutionrelative:lgblesson07models\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "lgblesson07Models",
+              "DocumentMoniker": "D:\\netcore\\k24cnt2_netcore\\lgblesson07Models\\lgblesson07Models\\lgblesson07Models.csproj",
+              "RelativeDocumentMoniker": "lgblesson07Models\\lgblesson07Models.csproj",
+              "ToolTip": "D:\\netcore\\k24cnt2_netcore\\lgblesson07Models\\lgblesson07Models\\lgblesson07Models.csproj",
+              "RelativeToolTip": "lgblesson07Models\\lgblesson07Models.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-13T07:38:46.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\netcore\\k24cnt2_netcore\\lgblesson07Models\\lgblesson07Models\\Views\\lgbMember\\Create.cshtml",
+              "RelativeDocumentMoniker": "lgblesson07Models\\Views\\lgbMember\\Create.cshtml",
+              "ToolTip": "D:\\netcore\\k24cnt2_netcore\\lgblesson07Models\\lgblesson07Models\\Views\\lgbMember\\Create.cshtml",
+              "RelativeToolTip": "lgblesson07Models\\Views\\lgbMember\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-13T07:26:58.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "lgbMemberController.cs",
+              "DocumentMoniker": "D:\\netcore\\k24cnt2_netcore\\lgblesson07Models\\lgblesson07Models\\Controllers\\lgbMemberController.cs",
+              "RelativeDocumentMoniker": "lgblesson07Models\\Controllers\\lgbMemberController.cs",
+              "ToolTip": "D:\\netcore\\k24cnt2_netcore\\lgblesson07Models\\lgblesson07Models\\Controllers\\lgbMemberController.cs*",
+              "RelativeToolTip": "lgblesson07Models\\Controllers\\lgbMemberController.cs*",
+              "ViewState": "AgIAAEsAAAAAAAAAAAA5wFwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T05:33:25.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\netcore\\k24cnt2_netcore\\lgblesson07Models\\lgblesson07Models\\Views\\lgbMember\\Index.cshtml",
+              "RelativeDocumentMoniker": "lgblesson07Models\\Views\\lgbMember\\Index.cshtml",
+              "ToolTip": "D:\\netcore\\k24cnt2_netcore\\lgblesson07Models\\lgblesson07Models\\Views\\lgbMember\\Index.cshtml",
+              "RelativeToolTip": "lgblesson07Models\\Views\\lgbMember\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-13T07:18:30.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\netcore\\k24cnt2_netcore\\lgblesson07Models\\lgblesson07Models\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "lgblesson07Models\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\netcore\\k24cnt2_netcore\\lgblesson07Models\\lgblesson07Models\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "lgblesson07Models\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-13T07:01:25.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "lgbMember.cs",
+              "DocumentMoniker": "D:\\netcore\\k24cnt2_netcore\\lgblesson07Models\\lgblesson07Models\\Models\\DataModels\\lgbMember.cs",
+              "RelativeDocumentMoniker": "lgblesson07Models\\Models\\DataModels\\lgbMember.cs",
+              "ToolTip": "D:\\netcore\\k24cnt2_netcore\\lgblesson07Models\\lgblesson07Models\\Models\\DataModels\\lgbMember.cs",
+              "RelativeToolTip": "lgblesson07Models\\Models\\DataModels\\lgbMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T05:29:47.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetMember.cshtml",
+              "DocumentMoniker": "D:\\netcore\\k24cnt2_netcore\\lgblesson07Models\\lgblesson07Models\\Views\\lgbMember\\GetMember.cshtml",
+              "RelativeDocumentMoniker": "lgblesson07Models\\Views\\lgbMember\\GetMember.cshtml",
+              "ToolTip": "D:\\netcore\\k24cnt2_netcore\\lgblesson07Models\\lgblesson07Models\\Views\\lgbMember\\GetMember.cshtml",
+              "RelativeToolTip": "lgblesson07Models\\Views\\lgbMember\\GetMember.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-13T05:44:34.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetMembers.cshtml",
+              "DocumentMoniker": "D:\\netcore\\k24cnt2_netcore\\lgblesson07Models\\lgblesson07Models\\Views\\lgbMember\\GetMembers.cshtml",
+              "RelativeDocumentMoniker": "lgblesson07Models\\Views\\lgbMember\\GetMembers.cshtml",
+              "ToolTip": "D:\\netcore\\k24cnt2_netcore\\lgblesson07Models\\lgblesson07Models\\Views\\lgbMember\\GetMembers.cshtml",
+              "RelativeToolTip": "lgblesson07Models\\Views\\lgbMember\\GetMembers.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-13T06:41:57.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\netcore\\k24cnt2_netcore\\lgblesson07Models\\lgblesson07Models\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "lgblesson07Models\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\netcore\\k24cnt2_netcore\\lgblesson07Models\\lgblesson07Models\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "lgblesson07Models\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-13T07:03:41.231Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
