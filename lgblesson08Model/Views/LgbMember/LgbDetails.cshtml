@@ -1,0 +1,35 @@
+@model LgbLesson08Models.Models.LgbMember
+
+@{
+    ViewData["Title"] = "Chi tiết thành viên";
+}
+
+<div class="card shadow-sm mt-4">
+    <div class="card-header bg-info text-white">
+        <h3 class="mb-0">@ViewData["Title"]</h3>
+    </div>
+    
+    <div class="card-body">
+        <dl class="row fs-5">
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.LgbMemberId)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.LgbMemberId)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.LgbUserName)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.LgbUserName)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.LgbFullName)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.LgbFullName)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.LgbEmail)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.LgbEmail)</dd>
+
+            <dt class="col-sm-3">@Html.DisplayNameFor(model => model.LgbAge)</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.LgbAge)</dd>
+        </dl>
+    </div>
+
+    <div class="card-footer">
+        <a asp-action="LgbEdit" asp-route-id="@Model?.LgbMemberId" class="btn btn-warning me-2">Chỉnh sửa</a>
+        <a asp-action="Index" class="btn btn-secondary">Quay lại danh sách</a>
+    </div>
+</div>
