@@ -1,0 +1,73 @@
+@model lgblesson09Annotation.Models.LgbAccount
+
+@{
+    ViewData["Title"] = "Chi Tiết Tài Khoản";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card shadow border-0">
+            <div class="card-header bg-info text-white py-3">
+                <h3 class="card-title mb-0 fs-4">
+                    <i class="bi bi-person-badge-fill me-2"></i>Chi Tiết Tài Khoản: @Model.FullName
+                </h3>
+            </div>
+            <div class="card-body p-4">
+                <dl class="row">
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Id)</dt>
+                    <dd class="col-sm-8">@Model.Id</dd>
+
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.FullName)</dt>
+                    <dd class="col-sm-8 fw-bold">@Model.FullName</dd>
+
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Email)</dt>
+                    <dd class="col-sm-8"><a href="mailto:@Model.Email">@Model.Email</a></dd>
+
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Phone)</dt>
+                    <dd class="col-sm-8">@Model.Phone</dd>
+
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Age)</dt>
+                    <dd class="col-sm-8">@Model.Age tuổi</dd>
+
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Gender)</dt>
+                    <dd class="col-sm-8">@Model.Gender</dd>
+
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.BirthDate)</dt>
+                    <dd class="col-sm-8">@Model.BirthDate.ToString("dd/MM/yyyy")</dd>
+
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.FacebookUrl)</dt>
+                    <dd class="col-sm-8">
+                        @if (!string.IsNullOrEmpty(Model.FacebookUrl))
+                        {
+                            <a href="@Model.FacebookUrl" target="_blank" rel="noopener">@Model.FacebookUrl</a>
+                        }
+                        else
+                        {
+                            <span class="text-muted">Chưa cập nhật</span>
+                        }
+                    </dd>
+
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.IsActive)</dt>
+                    <dd class="col-sm-8">
+                        @if (Model.IsActive)
+                        {
+                            <span class="badge bg-success">Hoạt động</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary">Khóa</span>
+                        }
+                    </dd>
+                </dl>
+                <div class="d-flex justify-content-between mt-4">
+                    <a asp-action="Index" class="btn btn-outline-secondary">
+                        <i class="bi bi-arrow-left me-1"></i> Quay lại
+                    </a>
+                    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">
+                        <i class="bi bi-pencil me-1"></i> Chỉnh sửa
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

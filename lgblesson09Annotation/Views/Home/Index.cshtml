@@ -1,0 +1,70 @@
+@{
+    ViewData["Title"] = "Trang chủ - Data Annotations";
+}
+
+<div class="p-5 mb-4 bg-light rounded-3 border shadow-sm">
+    <div class="container-fluid py-3">
+        <h1 class="display-5 fw-bold text-primary">
+            <i class="bi bi-code-slash me-2"></i>lgblesson09Annotation
+        </h1>
+        <p class="col-md-10 fs-4 text-secondary">
+            Dự án minh họa kiểm tra hợp lệ dữ liệu (Model Validation) sử dụng <strong>Data Annotations</strong> trong ASP.NET Core MVC.
+        </p>
+        <div class="d-flex gap-2 mt-4">
+            <a class="btn btn-primary btn-lg" asp-controller="LgbAccount" asp-action="Register">
+                <i class="bi bi-person-plus-fill me-1"></i> Thử nghiệm Đăng Ký Tài Khoản
+            </a>
+            <a class="btn btn-outline-secondary btn-lg" asp-controller="LgbAccount" asp-action="Index">
+                <i class="bi bi-people-fill me-1"></i> Xem Danh Sách Tài Khoản
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="row g-4 mb-5">
+    <div class="col-md-4">
+        <div class="card h-100 border-primary">
+            <div class="card-header bg-primary text-white font-weight-bold">
+                <i class="bi bi-check2-square me-2"></i>Validation Attributes
+            </div>
+            <div class="card-body">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><code>[Required]</code>: Bắt buộc nhập dữ liệu</li>
+                    <li class="list-group-item"><code>[StringLength]</code>: Ràng buộc độ dài chuỗi</li>
+                    <li class="list-group-item"><code>[Range]</code>: Kiểm tra khoảng giá trị số</li>
+                    <li class="list-group-item"><code>[Compare]</code>: So sánh 2 thuộc tính (VD: Mật khẩu)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100 border-success">
+            <div class="card-header bg-success text-white font-weight-bold">
+                <i class="bi bi-envelope-at me-2"></i>DataType & Format
+            </div>
+            <div class="card-body">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><code>[EmailAddress]</code>: Kiểm tra định dạng Email</li>
+                    <li class="list-group-item"><code>[Phone]</code> / <code>[RegularExpression]</code>: Kiểm tra SĐT</li>
+                    <li class="list-group-item"><code>[DataType(DataType.Password)]</code>: Ẩn mật khẩu</li>
+                    <li class="list-group-item"><code>[Url]</code>: Kiểm tra định dạng đường dẫn web</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card h-100 border-info">
+            <div class="card-header bg-info text-white font-weight-bold">
+                <i class="bi bi-display me-2"></i>Display & Razor Tag Helpers
+            </div>
+            <div class="card-body">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><code>[Display(Name="...")]</code>: Nhãn hiển thị</li>
+                    <li class="list-group-item"><code>asp-validation-summary</code>: Tổng hợp lỗi</li>
+                    <li class="list-group-item"><code>asp-validation-for</code>: Lỗi cho từng ô nhập</li>
+                    <li class="list-group-item">Client-side Validation (jQuery Unobtrusive)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

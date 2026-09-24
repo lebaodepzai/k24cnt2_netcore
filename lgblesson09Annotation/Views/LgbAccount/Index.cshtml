@@ -1,0 +1,64 @@
+@model IEnumerable<lgblesson09Annotation.Models.LgbAccount>
+
+@{
+    ViewData["Title"] = "Danh Sách Tài Khoản";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2><i class="bi bi-person-lines-fill text-primary me-2"></i>Danh Sách Tài Khoản (LgbAccount)</h2>
+    <a asp-action="Register" class="btn btn-success">
+        <i class="bi bi-person-plus-fill me-1"></i> Đăng Ký Tài Khoản Mới
+    </a>
+</div>
+
+<div class="table-responsive shadow-sm rounded border">
+    <table class="table table-hover table-striped align-middle mb-0">
+        <thead class="table-primary">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Id)</th>
+                <th>@Html.DisplayNameFor(model => model.FullName)</th>
+                <th>@Html.DisplayNameFor(model => model.Email)</th>
+                <th>@Html.DisplayNameFor(model => model.Phone)</th>
+                <th>@Html.DisplayNameFor(model => model.Age)</th>
+                <th>@Html.DisplayNameFor(model => model.Gender)</th>
+                <th>@Html.DisplayNameFor(model => model.IsActive)</th>
+                <th class="text-center">Thao Tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td class="fw-bold">@item.FullName</td>
+                    <td><a href="mailto:@item.Email">@item.Email</a></td>
+                    <td>@item.Phone</td>
+                    <td>@item.Age tuổi</td>
+                    <td>
+                        <span class="badge @(item.Gender == "Nam" ? "bg-info text-dark" : "bg-danger")">
+                            @item.Gender
+                        </span>
+                    </td>
+                    <td>
+                        @if (item.IsActive)
+                        {
+                            <span class="badge bg-success"><i class="bi bi-check-circle me-1"></i>Hoạt động</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary"><i class="bi bi-slash-circle me-1"></i>Khóa</span>
+                        }
+                    </td>
+                    <td class="text-center">
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-info me-1">
+                            <i class="bi bi-eye"></i> Chi tiết
+                        </a>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-warning">
+                            <i class="bi bi-pencil"></i> Sửa
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

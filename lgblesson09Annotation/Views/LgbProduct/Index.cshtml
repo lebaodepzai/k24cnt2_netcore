@@ -1,0 +1,34 @@
+@model IEnumerable<lgblesson09Annotation.Models.LgbProduct>
+
+@{
+    ViewData["Title"] = "Danh Sách Sản Phẩm";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2><i class="bi bi-box-seam text-primary me-2"></i>Danh Sách Sản Phẩm (LgbProduct)</h2>
+    <a asp-action="Create" class="btn btn-success">
+        <i class="bi bi-plus-circle me-1"></i> Thêm Sản Phẩm Mới
+    </a>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var item in Model)
+    {
+        <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                    <h5 class="card-title text-primary font-weight-bold">@item.Name</h5>
+                    <p class="card-text text-success fs-5 fw-bold">
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </p>
+                    <p class="card-text mb-1">
+                        <i class="bi bi-stack me-1"></i>Tồn kho: <strong>@item.Stock</strong> sản phẩm
+                    </p>
+                    <p class="card-text text-muted fs-7">
+                        <i class="bi bi-calendar3 me-1"></i>Ngày nhập: @Html.DisplayFor(modelItem => item.CreatedAt)
+                    </p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
