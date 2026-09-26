@@ -1,9 +1,4 @@
--- ============================================================================
--- CƠ SỞ DỮ LIỆU VÀ CẤU TRÚC BẢNG DÀNH CHO MYSQL / MYSQL WORKBENCH / PHPMYADMIN
--- Sinh viên thực hiện: Lê Gia Bảo (lgb)
--- Mã sinh viên: 2410900009
--- File SQL MySQL: LgbEmployee_2410900009_Db_MySQL.sql
--- ============================================================================
+
 
 -- 1. Tạo Cơ Sở Dữ Liệu
 CREATE DATABASE IF NOT EXISTS `Lgb2410900009_Db`
