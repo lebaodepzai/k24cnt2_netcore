@@ -1,0 +1,63 @@
+@model Lgb2410900009_exam.Models.LgbStudent
+
+@{
+    ViewData["Title"] = "Chi Tiết Sinh Viên";
+}
+
+<div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-7">
+            <div class="card shadow-lg border-0 rounded-4">
+                <div class="card-header bg-info text-white py-3">
+                    <h4 class="card-title mb-0 fw-bold">
+                        <i class="bi bi-person-lines-fill me-2"></i>CHI TIẾT SINH VIÊN #@Model.Id
+                    </h4>
+                </div>
+                <div class="card-body p-4">
+                    <dl class="row fs-6 mb-0">
+                        <dt class="col-sm-4 text-muted py-2">@Html.DisplayNameFor(model => model.Id):</dt>
+                        <dd class="col-sm-8 fw-bold py-2">#@Model.Id</dd>
+
+                        <dt class="col-sm-4 text-muted py-2">@Html.DisplayNameFor(model => model.LgbName):</dt>
+                        <dd class="col-sm-8 fw-bold text-primary py-2 fs-5">@Model.LgbName</dd>
+
+                        <dt class="col-sm-4 text-muted py-2">@Html.DisplayNameFor(model => model.LgbGender):</dt>
+                        <dd class="col-sm-8 py-2">@Model.LgbGender</dd>
+
+                        <dt class="col-sm-4 text-muted py-2">@Html.DisplayNameFor(model => model.LgbBirthDay):</dt>
+                        <dd class="col-sm-8 py-2">@(Model.LgbBirthDay.HasValue ? Model.LgbBirthDay.Value.ToString("dd/MM/yyyy") : "-")</dd>
+
+                        <dt class="col-sm-4 text-muted py-2">@Html.DisplayNameFor(model => model.LgbEmail):</dt>
+                        <dd class="col-sm-8 py-2">@Model.LgbEmail</dd>
+
+                        <dt class="col-sm-4 text-muted py-2">@Html.DisplayNameFor(model => model.LgbPhone):</dt>
+                        <dd class="col-sm-8 py-2">@Model.LgbPhone</dd>
+
+                        <dt class="col-sm-4 text-muted py-2">@Html.DisplayNameFor(model => model.LgbAddress):</dt>
+                        <dd class="col-sm-8 py-2">@Model.LgbAddress</dd>
+
+                        <dt class="col-sm-4 text-muted py-2">@Html.DisplayNameFor(model => model.LgbActive):</dt>
+                        <dd class="col-sm-8 py-2">
+                            @if (Model.LgbActive)
+                            {
+                                <span class="badge bg-success rounded-pill px-3 py-1">Đang theo học</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-secondary rounded-pill px-3 py-1">Nghỉ học</span>
+                            }
+                        </dd>
+                    </dl>
+                </div>
+                <div class="card-footer bg-light p-3 d-flex justify-content-between">
+                    <a asp-action="Index" class="btn btn-outline-secondary rounded-pill px-4">
+                        <i class="bi bi-arrow-left me-1"></i> Quay Lại
+                    </a>
+                    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning rounded-pill px-4 fw-bold">
+                        <i class="bi bi-pencil-square me-1"></i> Chỉnh Sửa
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

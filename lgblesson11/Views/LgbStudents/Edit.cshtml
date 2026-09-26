@@ -1,0 +1,88 @@
+@model Lgb2410900009_exam.Models.LgbStudent
+
+@{
+    ViewData["Title"] = "Chỉnh Sửa Sinh Viên";
+}
+
+<div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-7">
+            <div class="card shadow-lg border-0 rounded-4">
+                <div class="card-header bg-warning text-dark py-3">
+                    <h4 class="card-title mb-0 fw-bold">
+                        <i class="bi bi-pencil-square me-2"></i>CHỈNH SỬA THÔNG TIN SINH VIÊN
+                    </h4>
+                </div>
+                <div class="card-body p-4">
+                    <form asp-action="Edit">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                        <input type="hidden" asp-for="Id" />
+
+                        <div class="mb-3">
+                            <label asp-for="LgbName" class="form-label fw-semibold"></label>
+                            <input asp-for="LgbName" class="form-control" />
+                            <span asp-validation-for="LgbName" class="text-danger"></span>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label asp-for="LgbGender" class="form-label fw-semibold"></label>
+                                <select asp-for="LgbGender" class="form-select">
+                                    <option value="">-- Chọn giới tính --</option>
+                                    <option value="Nam">Nam</option>
+                                    <option value="Nữ">Nữ</option>
+                                    <option value="Khác">Khác</option>
+                                </select>
+                                <span asp-validation-for="LgbGender" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <label asp-for="LgbBirthDay" class="form-label fw-semibold"></label>
+                                <input asp-for="LgbBirthDay" type="date" class="form-control" />
+                                <span asp-validation-for="LgbBirthDay" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label asp-for="LgbEmail" class="form-label fw-semibold"></label>
+                                <input asp-for="LgbEmail" class="form-control" />
+                                <span asp-validation-for="LgbEmail" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <label asp-for="LgbPhone" class="form-label fw-semibold"></label>
+                                <input asp-for="LgbPhone" class="form-control" />
+                                <span asp-validation-for="LgbPhone" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="LgbAddress" class="form-label fw-semibold"></label>
+                            <input asp-for="LgbAddress" class="form-control" />
+                            <span asp-validation-for="LgbAddress" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-check mb-4">
+                            <input class="form-check-input" asp-for="LgbActive" />
+                            <label class="form-check-label fw-semibold" asp-for="LgbActive">
+                                @Html.DisplayNameFor(model => model.LgbActive) (Kích hoạt / Đang học)
+                            </label>
+                        </div>
+
+                        <div class="d-flex justify-content-between">
+                            <a asp-action="Index" class="btn btn-outline-secondary rounded-pill px-4">
+                                <i class="bi bi-arrow-left me-1"></i> Hủy & Quay Lại
+                            </a>
+                            <button type="submit" class="btn btn-warning rounded-pill px-4 fw-bold">
+                                <i class="bi bi-save me-1"></i> Cập Nhật
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

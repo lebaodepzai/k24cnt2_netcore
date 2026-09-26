@@ -1,0 +1,96 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EntryPointFilePath = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Lgb2410900009_exam
+build_property.RootNamespace = Lgb2410900009_exam
+build_property.ProjectDir = D:\netcore\k24cnt2_netcore\lgblesson11\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 10.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\netcore\k24cnt2_netcore\lgblesson11
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/netcore/k24cnt2_netcore/lgblesson11/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/netcore/k24cnt2_netcore/lgblesson11/Views/Home/LgbAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMZ2JBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/netcore/k24cnt2_netcore/lgblesson11/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/netcore/k24cnt2_netcore/lgblesson11/Views/LgbEmployees/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGdiRW1wbG95ZWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/netcore/k24cnt2_netcore/lgblesson11/Views/LgbEmployees/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGdiRW1wbG95ZWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/netcore/k24cnt2_netcore/lgblesson11/Views/LgbEmployees/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGdiRW1wbG95ZWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/netcore/k24cnt2_netcore/lgblesson11/Views/LgbEmployees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGdiRW1wbG95ZWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/netcore/k24cnt2_netcore/lgblesson11/Views/LgbEmployees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGdiRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/netcore/k24cnt2_netcore/lgblesson11/Views/LgbStudents/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGdiU3R1ZGVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/netcore/k24cnt2_netcore/lgblesson11/Views/LgbStudents/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGdiU3R1ZGVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/netcore/k24cnt2_netcore/lgblesson11/Views/LgbStudents/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGdiU3R1ZGVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/netcore/k24cnt2_netcore/lgblesson11/Views/LgbStudents/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGdiU3R1ZGVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/netcore/k24cnt2_netcore/lgblesson11/Views/LgbStudents/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGdiU3R1ZGVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/netcore/k24cnt2_netcore/lgblesson11/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/netcore/k24cnt2_netcore/lgblesson11/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/netcore/k24cnt2_netcore/lgblesson11/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/netcore/k24cnt2_netcore/lgblesson11/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/netcore/k24cnt2_netcore/lgblesson11/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-5idolpcvpb
