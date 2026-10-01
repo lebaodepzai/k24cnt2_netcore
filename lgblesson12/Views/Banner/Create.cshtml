@@ -1,0 +1,45 @@
+@model lgblesson12.Models.Banner
+
+@{
+    ViewData["Title"] = "Thêm mới Banner";
+}
+
+<h2>Thêm mới Banner</h2>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+            <div class="form-group mb-3">
+                <label asp-for="Name" class="control-label fw-bold"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label class="control-label fw-bold">Hình ảnh Banner</label>
+                <input type="file" name="Image" class="form-control" accept="image/*" />
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Description" class="control-label fw-bold"></label>
+                <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Status" class="control-label fw-bold"></label>
+                <select asp-for="Status" class="form-select">
+                    <option value="1">Hiển thị (1)</option>
+                    <option value="0">Ẩn (0)</option>
+                </select>
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <input type="submit" value="Tạo mới" class="btn btn-sm btn-success" />
+                <a class="btn btn-sm btn-secondary" asp-action="Index">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

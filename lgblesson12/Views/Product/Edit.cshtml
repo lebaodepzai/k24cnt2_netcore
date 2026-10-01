@@ -1,0 +1,68 @@
+@model lgblesson12.Models.Product
+
+@{
+    ViewData["Title"] = "Chỉnh sửa sản phẩm";
+}
+
+<h2>Chỉnh sửa sản phẩm</h2>
+<hr />
+<form asp-action="Edit" enctype="multipart/form-data">
+    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="Image" />
+    <div class="row">
+        <div class="col-md-6 mb-3">
+            <label asp-for="Name" class="control-label fw-bold"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="col-md-6 mb-3">
+            <label asp-for="CategoryId" class="control-label fw-bold"></label>
+            <select asp-for="CategoryId" class="form-select" asp-items="ViewBag.CategoryId"></select>
+            <span asp-validation-for="CategoryId" class="text-danger"></span>
+        </div>
+        <div class="col-md-6 mb-3">
+            <label class="control-label fw-bold">Hình ảnh hiện tại</label>
+            <div>
+                @if (!string.IsNullOrEmpty(Model.Image)) {
+                    <img src="~/Product/@Model.Image" alt="@Model.Name" style="width: 100px; height: 80px; object-fit: cover;" class="img-thumbnail mb-2" />
+                } else {
+                    <span class="text-muted d-block mb-2">Chưa có ảnh</span>
+                }
+            </div>
+            <label class="control-label fw-bold">Chọn ảnh mới (nếu muốn thay đổi)</label>
+            <input type="file" name="Image" class="form-control" accept="image/*" />
+        </div>
+        <div class="col-md-6 mb-3">
+            <label asp-for="Price" class="control-label fw-bold"></label>
+            <input asp-for="Price" class="form-control" type="number" step="1000" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+        <div class="col-md-6 mb-3">
+            <label asp-for="SalePrice" class="control-label fw-bold"></label>
+            <input asp-for="SalePrice" class="form-control" type="number" step="1000" />
+            <span asp-validation-for="SalePrice" class="text-danger"></span>
+        </div>
+        <div class="col-md-6 mb-3">
+            <label asp-for="Status" class="control-label fw-bold"></label>
+            <select asp-for="Status" class="form-select">
+                <option value="1">Hiển thị (1)</option>
+                <option value="0">Ẩn (0)</option>
+            </select>
+            <span asp-validation-for="Status" class="text-danger"></span>
+        </div>
+        <div class="col-md-12 mb-3">
+            <label asp-for="Descriptions" class="control-label fw-bold"></label>
+            <textarea asp-for="Descriptions" class="form-control" rows="4"></textarea>
+            <span asp-validation-for="Descriptions" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group mb-3">
+        <input type="submit" value="Lưu thay đổi" class="btn btn-sm btn-success" />
+        <a class="btn btn-sm btn-secondary" asp-action="Index">Về danh sách</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
